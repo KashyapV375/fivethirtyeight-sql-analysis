@@ -1,0 +1,46 @@
+films  first_year  last_year  missing_domestic  missing_international
+-----  ----------  ---------  ----------------  ---------------------
+1794   1970        2013       18                11                   
+films  passed  pass_pct
+-----  ------  --------
+1615   753     46.6    
+clean_test  meaning                                       films  pct 
+----------  --------------------------------------------  -----  ----
+ok          passes                                        803    44.8
+notalk      two women, but they never talk to each other  514    28.7
+men         they only talk about a man                    194    10.8
+dubious     disputed                                      142    7.9 
+nowomen     fewer than two women                          141    7.9 
+decade  films  pass_pct
+------  -----  --------
+1970    54     25.9    
+1980    125    28.8    
+1990    337    43.6    
+2000    840    48.7    
+2010    438    45.0    
+result  films  median_budget_2013
+------  -----  ------------------
+FAIL    862    48385984.0        
+PASS    753    31070724.0        
+result  films  median_worldwide_gross_per_dollar
+------  -----  ---------------------------------
+FAIL    859    2.45                             
+PASS    748    2.7                              
+result  films  median_us_gross_per_dollar
+------  -----  --------------------------
+FAIL    856    1.2                       
+PASS    744    1.39                      
+budget_band       result  films  total_gross_per_dollar
+----------------  ------  -----  ----------------------
+1. under $20M     FAIL    207    4.59                  
+1. under $20M     PASS    265    4.84                  
+2. $20M to $60M   FAIL    279    3.29                  
+2. $20M to $60M   PASS    285    3.47                  
+3. $60M to $120M  FAIL    229    2.82                  
+3. $60M to $120M  PASS    131    3.13                  
+4. over $120M     FAIL    144    3.16                  
+4. over $120M     PASS    67     3.56                  
+budget_band  films  pass_pct
+-----------  -----  --------
+over $120M   211    31.8    
+under $120M  1404   48.9    

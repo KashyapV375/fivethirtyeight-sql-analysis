@@ -1,0 +1,57 @@
+films  with_at_least_1_review  with_30_or_more
+-----  ----------------------  ---------------
+510    437                     212            
+films  pct_3_stars_or_more  pct_4_stars_or_more  films_under_2_stars
+-----  -------------------  -------------------  -------------------
+437    98.2                 74.8                 3                  
+stars  films  pct 
+-----  -----  ----
+5.0    92     21.1
+4.5    107    24.5
+4.0    128    29.3
+3.5    57     13.0
+3.0    45     10.3
+2.5    1      0.2 
+2.0    4      0.9 
+1.0    3      0.7 
+stars_minus_real_rating  films
+-----------------------  -----
+0.0                      109  
+0.1                      66   
+0.2                      82   
+0.3                      72   
+0.4                      70   
+0.5                      37   
+1.0                      1    
+rounded_down  shown_exactly  rounded_up  pct_pushed_up_past_normal_rounding
+------------  -------------  ----------  ----------------------------------
+0             109            328         24.7                              
+film              real_rating  stars_shown  votes
+----------------  -----------  -----------  -----
+Turbo Kid (2015)  4.0          5.0          2    
+films  fandango_stars  fandango_real_avg  imdb  metacritic_users  rt_users  rt_critics  metacritic_critics
+-----  --------------  -----------------  ----  ----------------  --------  ----------  ------------------
+146    4.09            3.85               3.37  3.26              3.19      3.04        2.94              
+fandango_is_highest  films
+-------------------  -----
+96                   146  
+fandango  rt_users  rt_critics  metacritic_users  imdb
+--------  --------  ----------  ----------------  ----
+107       45        57          22                10  
+film                      fandango_stars  rt_critics  gap
+------------------------  --------------  ----------  ---
+Do You Believe? (2015)    5.0             0.9         4.1
+Taken 3 (2015)            4.5             0.45        4.0
+Pixels (2015)             4.5             0.85        3.6
+Hot Pursuit (2015)        4.0             0.4         3.6
+Hitman: Agent 47 (2015)   4.0             0.35        3.6
+The Boy Next Door (2015)  4.0             0.5         3.5
+fandango_is_lowest
+------------------
+6                 
+vote_band          films  avg_stars_shown  avg_real_rating  lowest_stars
+-----------------  -----  ---------------  ---------------  ------------
+1. under 30 votes  225    4.06             3.88             1.0         
+2. 30 to 999       126    4.17             3.93             3.0         
+3. 1,000 to 9,999  73     4.15             3.9              3.0         
+4. 10,000 or more  13     4.54             4.32             3.5         
